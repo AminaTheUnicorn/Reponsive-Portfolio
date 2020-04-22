@@ -12,45 +12,64 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body style="background-color:#ebebeb;">
+<body style="background-color:#e3e3e3 ;">
 
- 
-   
-  <nav class="shadow-sm mb-5 bg-white rounded" style="background-color: white;">
+    <nav class="navbar justify-content-around bg-white shadow-sm mb-5 bg-white rounded" style="padding: 0%;">
 
-        <div class="row align-items-center d-flex justify-content-around ">
-            <div class="text-center col-lg-2 col-md-3 col-sm-12 col-xs-12"
-                style="background-color: #74ccbc;height: 50px; width: 450px; font-size: xx-large; color: white; font-weight: bolder;">
-                Aminat</div>
-            <div class="text-secondary col-lg-2 col-md-1 col-sm-4 col-xs-12 " style="">About</div>
-            <div class="text-secondary col-lg-2 col-md-1 col-sm-4 col-xs-12 ">Portfolio</div>
-            <div class="text-secondary col-lg-2 col-md-1 col-sm-4 col-xs-12 ">Contact</div>
-
-
-
-            <!--   <div class="col-lg-1">About</div>
-            <div class="col-lg-1">Portfolio</div>
-            <div class="col-lg-1">Contact</div>-->
-
+        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 bg-info text-white text-center"
+          style="font-size: xx-large; height:60px ;">
+          Aminat</div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <a class="nav-link active text-secondary" href="../About">About</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <a class="nav-link text-secondary" href="../Portfolio">Portfolio</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <a class="nav-link text-secondary" href="../Contact">Contact</a>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-<!--Main Content-->
+    <!--Main Content-->
 
-<section class="main" style="background-color: white; height:550px ; width:650px ;">
-    
-<div class="contact" style="font-size: xx-large; color:#74ccbc; font-weight: 700;"> Contact </div>
-<div class="underline" style="background-color:darkgrey ; height: 2px;"></div>
+    <section class="main p-4 m-6" style="background-color: white; height:550px ; width:650pxx;">
 
-</section>
+      <h3 class="text-info" style="font-size: x-large;">Contact</h3>
+        <div class="underline my-4" style="background-color:rgba(211, 211, 211, 0.952) ; height: 3px;"></div>
+
+        <form action="">
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="Email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label for="validationTextarea">Message</label>
+                <textarea class="form-control" id="validationTextarea"
+                    placeholder="Please enter a message in the text area." required></textarea>
+                <button class="mt-3 bg-info btn text-white" type="submit">Submit</button>
+
+        </form>
+
+    </section>
 
 
 
+    <!--Footer-->
 
+    <footer>
 
+        <div class="row bg-info footer-line mt-5" style="height: 4px ;"></div>
 
-<!--Footer-->
+        <div class=" row p-5 justify-content-around text-white footer-block" style="background-color:#454b4f; height: 60px; font-size: xx-small;"> © Copyright</div>
 
+    </footer>
 
 
     <!-- Optional JavaScript -->
